@@ -27,7 +27,7 @@
 body{
     background-image: url('images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     font-family: 'red hat display';
 }
 

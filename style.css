@@ -102,6 +102,9 @@ header a{
     display: flex;
     height: 110px;
     align-items: center;
+    margin: auto;
+    width: 80%;
+    
     
 }
 
@@ -168,7 +171,9 @@ header a{
 
     padding-top: 15px;
     padding-bottom: 15px;
+    margin: auto;
     margin-top: 40px;
+    width: 80%;
 }
 #payment_box a{
     text-decoration: none;

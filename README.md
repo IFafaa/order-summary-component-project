@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop-screenshot.png)
+![](./)
 ![](./)
 
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/semantinc-html-css-flexbox-and-mediaquerry-J4GGY2RE5_]
+- Live Site URL: [https://ifafaa.github.io/order-summary-component-project/]
 
 
 ### Built with

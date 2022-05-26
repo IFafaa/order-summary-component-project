@@ -1,0 +1,221 @@
+/*implement font*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*Variáveis*/
+:root{
+    /*Primary*/
+
+    --cor1: hsl(225, 100%, 94%);
+    --cor2: hsl(245, 75%, 52%);
+
+    /*Neutral*/
+
+    --cor3: hsl(225, 100%, 98%);
+    --cor4: hsl(224, 23%, 55%);
+    --cor5: hsl(223, 47%, 23%);
+}
+
+/*global configurations*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body configuration*/
+body{
+    background-image: url('images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--cor3);
+    font-family: 'red hat display';
+}
+
+/*header configuration*/
+header{
+    text-align: center;
+
+    display: block;
+    padding: 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/*main configuration / flexbox to centralize*/
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+#general_box{
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+
+    width: 320px;
+    padding: 15px;
+}
+
+/*top section / image*/
+
+#top_image{
+    margin-top: -15px;
+    margin-left: -15px;
+
+    width: 320px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*middle section / title and text*/
+#title_and_text{
+    text-align: center;
+
+    width: 300px;
+    margin: 40px auto auto auto;
+}
+
+/*title*/
+#title_box{
+    margin-bottom: 15px;
+
+    color: var(--cor5);
+}
+
+/*text*/
+#text_box{
+    margin-bottom: 20px;
+
+    color: var(--cor4);
+}
+
+/*middle section / change the plan*/
+/*your plan*/
+#change_plan{
+    background-color: var(--cor3);
+    border-radius: 20px;
+
+    display: flex;
+    height: 110px;
+    align-items: center;
+    
+}
+
+#atual_plan{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#your_plan h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+#your_plan p{
+    font-size: 16px;
+    color: var(--cor4);
+}
+
+#music_icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*change button*/
+#change_button_container{
+    display: flex;
+    width: 50%;
+    height: 110px;
+    justify-content: flex-end;
+}
+
+#change_button{
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 100px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#change_button:hover{
+    background-color: var(--cor1);
+    cursor: pointer;
+}
+
+#change_button p{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*bottom section / cancel and payment buttons*/
+
+/*payment box*/
+#payment_box{
+    background-color: var(--cor2);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+#payment_box a{
+    text-decoration: none;
+    color: white;
+}
+
+#payment_box:hover{
+    background-color: var(--cor5);
+    cursor: pointer;
+}
+
+/*cancel box*/
+#cancel_box{
+    text-align: center;
+    color: var(--cor4);
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#cancel_box a{
+    text-decoration: none;
+}
+
+#cancel_box a:hover{
+    text-decoration: underline;
+}
+
+/*media querry*/
+
+/*box size in desktop*/
+@media (min-width: 480px){
+    #general_box{
+        width: 450px;
+    }
+    #top_image{
+        width: 450px;
+    }
+}
+
+/*background in desktop*/
+@media (min-width: 374px){
+    body{
+        background-image: url('images/pattern-background-desktop.svg');
+        background-repeat: repeat-x;
+    }
+}
+
+
+

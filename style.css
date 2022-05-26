@@ -104,9 +104,7 @@ header a{
     height: 110px;
     align-items: center;
     margin: auto;
-    width: 80%;
-    
-    
+    width: 100%;
 }
 
 #atual_plan{
@@ -143,7 +141,7 @@ header a{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 
-    width: 100px;
+    width: 70px;
     height: 110px;
     display: flex;
     align-items: center;
@@ -213,6 +211,9 @@ header a{
     #top_image{
         width: 450px;
     }
+    #change_plan{
+        width: 80%;
+    }
 }
 
 /*background in desktop*/
@@ -220,6 +221,10 @@ header a{
     body{
         background-image: url('images/pattern-background-desktop.svg');
         background-repeat: repeat-x;
+    }
+
+    #change_button{
+        width: 100px;
     }
 }
 

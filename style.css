@@ -86,6 +86,9 @@ header a{
     color: var(--cor5);
     font-size: 1.2em;
 }
+#title_box h1{
+    font-weight: 900;
+}
 
 /*text*/
 #text_box{
@@ -110,12 +113,13 @@ header a{
 #atual_plan{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 70%;
 }
 
 #your_plan h2{
     font-size: 18px;
     padding-bottom: 5px;
+    color: var(--cor5);
 }
 
 #your_plan p{
@@ -131,7 +135,7 @@ header a{
 /*change button*/
 #change_button_container{
     display: flex;
-    width: 50%;
+    width: 30%;
     height: 110px;
     justify-content: flex-end;
 }
@@ -177,6 +181,7 @@ header a{
 #payment_box a{
     text-decoration: none;
     color: white;
+    font-weight: 900;
 }
 
 #payment_box:hover{
@@ -195,6 +200,8 @@ header a{
 
 #cancel_box a{
     text-decoration: none;
+    color: var(--cor4);
+    font-weight: 700;
 }
 
 #cancel_box a:hover{
